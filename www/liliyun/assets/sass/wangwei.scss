@@ -1,0 +1,45 @@
+/*---------------
+porject:xc.lilixc.com
+author:wangwei
+time:2016-3-3
+nameSpace:w-
+---------------*/
+@import 'common.scss';
+
+/*学员置状态失败*/
+.change-error-students .content{width:50%;padding:0;}
+
+/*修改密码*/
+.w-change-password{font-family:"微软雅黑";}
+.w-change-password label{font-weight:300;}
+.w-change-password a.btn{padding-left:15px;padding-right:15px;letter-spacing:3px;}
+.w-change-password .error{font-size:18px;}
+.w-change-password input.form-control{width:60%;float:left;}
+.w-change-password .error,
+.w-change-password .succes{margin-left:10px;line-height:35px;}
+.w-change-password .error em{font-size:14px;font-style:normal;margin-left:5px;}
+
+/*置学员状态*/
+#queshizl{display:none;}  
+
+/*身份认证查看照片*/
+.w-identity-bg{width:680px;height:280px;border:solid 1px $table-border-color;position:fixed;left:50%;top:100px;background:$header-color;
+	z-index:10000;}
+.w-identity-bg>div{width:45%;height:85%;float:left;margin:20px 0 0 23px;}
+.w-identity-bg>div img{width:100%;height:100%;}
+.w-identity-bg .icon{width:28px;height:18px;position:absolute;left:50%;bottom:-15px;display:block;margin-left:-12px;}
+
+
+/*选择城市错误提示*/
+select.error-select{border:solid 1px red!important;}
+
+@media(max-width:768px) { 
+	.change-error-students .content{width:90%;}
+}
+
+
+
+ 
+
+
+
